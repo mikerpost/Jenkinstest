@@ -1,6 +1,5 @@
-# tests.py
-
-import random
+#!/usr/bin/env python
+#import random
 try:
     import unittest2 as unittest
 except ImportError:
