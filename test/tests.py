@@ -6,9 +6,9 @@ except ImportError:
     import unittest
 
 class SimpleTest(unittest.TestCase):
-"""
-Test 
-"""
+	"""
+	Test 
+	"""
     @unittest.skip("demonstrating skipping")
     def test_skipped(self):
     """
