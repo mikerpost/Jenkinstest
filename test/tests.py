@@ -10,11 +10,11 @@ class SimpleTest(unittest.TestCase):
 Test 
 """
     @unittest.skip("demonstrating skipping")
-	    def test_skipped(self):
-	    """
-	    test_skipped
-	    """
-	        self.fail("shouldn't happen")
+    def test_skipped(self):
+    """
+    test_skipped
+    """
+        self.fail("shouldn't happen")
 
     def test_pass(self):
     """
